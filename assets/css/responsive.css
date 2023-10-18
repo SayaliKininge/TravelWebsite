@@ -1,0 +1,541 @@
+/* max-width:1200px */
+@media screen and (max-width:1200px) {
+
+    /* header */
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 0px 30px;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    /* banner section */
+    .banner {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .banner .banner-header h1 {
+
+        padding: 50px 0px 10px 50px;
+        font-size: 40px;
+
+    }
+
+    .banner .banner-header h3 {
+        font-size: 15px;
+        padding: 0px 50px;
+    }
+
+    .banner .search-banner {
+        margin-top: 5%;
+        height: auto;
+    }
+
+    .banner .search-banner .search-input input[type=text] {
+        width: 160px;
+    }
+
+    .banner .search-banner .search-input a {
+        margin-left: 3px;
+    }
+
+    .booking-details ul {
+        margin-top: -14px;
+    }
+
+    /* features section  */
+    .features {
+        width: 100%;
+        height: auto;
+        padding: 0px 50px;
+    }
+
+    .features .activity-box {
+        padding: 0px 40px;
+    }
+
+    .features .activity-content {
+        width: auto;
+    }
+
+    /* subscribe section */
+    .subscribe {
+        height: auto;
+    }
+
+    /* visit section */
+    .destination {
+        height: auto;
+        padding: 10px 50px;
+    }
+
+
+    .destination img {
+        width: 210px;
+        height: 130px;
+    }
+
+    /* help section */
+    .help-section {
+        height: auto;
+        padding: 10px 80px;
+    }
+
+    .help-section input[type],
+    .help-section select {
+        width: 150px;
+        height: 40px;
+        padding: 10px 20px;
+    }
+
+    /* blog section */
+    .blog {
+        height: auto;
+        padding: 10px 40px;
+    }
+
+    /* footer section */
+    footer {
+        height: auto;
+        padding: 10px 80px;
+    }
+}
+
+/* max-width:991px */
+@media screen and (max-width:991px) {
+
+    /* nav section */
+    nav {
+        padding: 0px;
+    }
+
+    nav img {
+        width: 130px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    nav ul li {
+        padding: 5px;
+    }
+
+    nav ul li img {
+        width: 18px;
+        height: auto;
+    }
+
+    .search-banner .search-input input[type=text],
+    .search-banner .search-input select {
+        width: 60px;
+        height: 30px;
+        padding: 3px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .search-banner .search-input .icon {
+        display: none;
+    }
+
+    .banner .search-banner {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .search-banner .search-input .search-btn {
+        padding: 20px 10px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .booking-details input[type=checkbox] {
+        width: 15px;
+    }
+
+    .booking-details ul li {
+        padding: 3px;
+    }
+
+    /* faetures section */
+    .features {
+        padding: 0px;
+    }
+
+    .features h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .features .activity-box {
+        padding: 0px 5px;
+    }
+
+    .features .activity-content {
+        width: auto;
+        margin: 5px;
+    }
+
+    .features .activity-content span {
+        font-size: 20px;
+    }
+
+    .features .activity-content h2,
+    p {
+        font-size: 10px;
+    }
+
+    .features .activity-content p {
+        padding: 2px;
+    }
+
+    /* subscribe section */
+    .subscribe .subscribe-content {
+        padding: 10px;
+        width: 500px;
+    }
+
+    .subscribe .subscribe-content p {
+        font-size: 12px;
+    }
+
+    .subscribe .email-input input[type],
+    button {
+        margin-top: 30px;
+        padding: 12px 20px;
+    }
+
+    /* visit section */
+    .destination {
+        padding: 20px 30px;
+    }
+
+    .destination img {
+        width: 170px;
+        height: 90px;
+    }
+
+    /* help section */
+    .help-section {
+        padding: 10px 50px;
+    }
+
+    .help-section h3 {
+        margin-bottom: 30px;
+    }
+
+    .help-section input[type],
+    .help-section select {
+        width: 120px;
+        height: 40px;
+        padding: 5px 10px;
+    }
+
+    .help-section button {
+        width: 130px;
+        height: 40px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    /* footer section */
+    footer {
+        padding: 20px 50px;
+    }
+
+    footer .bottom-list a {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+/*media  max-width:767px */
+@media screen and (max-width:767px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 90px;
+    }
+
+    .search-banner .search-input button {
+        padding: 5px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .banner .search-banner {
+        padding: 0px;
+        box-shadow: 2px 4px 7px 2px rgb(45, 0, 45);
+    }
+
+    .search-banner .search-input {
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .search-banner .search-input ul li {
+        display: block;
+    }
+
+    .search-banner .search-input ul li span {
+        display: none;
+    }
+
+    .banner .search-banner .search-input input[type=text],
+    .search-banner .search-input select {
+        width: 500px;
+        height: 30px;
+        padding: 3px;
+        font-size: 12px;
+        display: inline-block;
+        margin: 3px;
+        text-align: center;
+        background-color: rgba(248, 247, 247, 0.7);
+
+    }
+
+    .search-banner .search-input ::placeholder,
+    .search-banner .search-input select {
+        color: #000;
+    }
+
+    .booking-details ul li {
+        font-size: 14px;
+
+    }
+
+    .booking-details input[type=checkbox] {
+        width: 10px;
+    }
+
+    .features h1 {
+        font-size: 15px;
+    }
+
+    .features .activity-content {
+        padding: 8px;
+    }
+
+    .features .activity-content p {
+        font-size: 12px;
+    }
+
+    .subscribe .subscribe-content h1 {
+        font-size: 15px;
+    }
+
+    .subscribe .email-input input[type=email] {
+        width: 350px;
+    }
+
+    .subscribe .email-input {
+        width: 800px;
+    }
+
+
+    .destination {
+        padding: 20px;
+    }
+
+    .destination img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .help-section {
+        padding: 20px 10px;
+    }
+
+    .help-section h1,
+    h3 {
+        font-size: 15px;
+    }
+
+    .help-section input[type],
+    .help-section select {
+        width: 80px;
+        height: 30px;
+        padding: 0px;
+    }
+
+    .blog {
+        padding: 10px 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .blog-container img {
+        width: 240px;
+        height: 170px;
+    }
+
+    .blog h1 {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .blog .blog-container ul {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .blog .blog-container h4 {
+        font-size: 12px;
+    }
+
+    .blog .blog-container ul li p {
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .blog p {
+        padding: 0px 20px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 6px;
+    }
+
+    footer .bottom-list {
+        display: block;
+    }
+
+    footer .bottom-list .social-icon li {
+        padding: 5px;
+    }
+
+    .bottom-list .social-icon {
+        justify-content: center;
+    }
+}
+
+/* max-width:575px */
+@media screen and (max-width:575px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: none;
+    }
+ .banner {
+    padding: 20px;
+ }
+    .banner .banner-header h1 {
+        font-size: 30px;
+    }
+
+    .banner .banner-header h3 {
+        font-size: 13px;
+    } 
+
+    .banner .search-banner {
+        width: 50%;
+    }
+
+    .banner .search-banner button {
+        font-size: 10px;
+    }
+    .banner .search-banner .search-input input[type=text],
+    .search-banner .search-input select {
+        width: 90%;
+        font-size: 11px;
+        color: #000;
+    }
+
+    .search-banner .search-input .search-btn {
+        padding: 4px 14px;
+        font-size: 9px;
+        border-radius: 7px;
+    }
+
+    .search-banner .booking-details ul {
+        display: inline-block;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+
+    .search-banner .booking-details ul li,
+    .search-banner .booking-details select {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .search-banner .booking-details input[type=checkbox] {
+        width: 10px;
+    }
+
+    .act-cont {
+        display: none;
+    }
+
+    .subscribe .subscribe-content {
+        width: 300px;
+    }
+
+    .subscribe .email-input input[type=email] {
+        width: 200px;
+        padding: 10px 0px;
+    }
+
+    .destination ul {
+        grid-gap: 5px;
+        grid-template-columns: repeat(3, 28%);
+        justify-content: center;
+    }
+
+    .destination .visit-content {
+        padding: 5px;
+    }
+
+    .destination img {
+        width: 370px;
+        height: 140px;
+        padding: 2px;
+        margin: auto;
+    }
+    
+    .help-section {
+        padding: 20px;
+    }
+
+    .help-section h3 {
+        margin-bottom: 60px;
+    }
+
+    .help-section input[type],
+    .help-section select {
+        display: block;
+        width: 400px;
+        height: 30px;
+        padding: 3px 5px;
+        margin: 5px;
+    }
+
+    footer .top-cities ul li {
+        font-size: 10px;
+    }
+
+    .bottom-list li a {
+        font-size: 10px;
+    }
+
+    footer .bottom-list img {
+        display: none;
+    }
+
+    footer .bottom-list .social-icon a {
+        padding: 8px;
+    }
+}
