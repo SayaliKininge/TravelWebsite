@@ -13,10 +13,10 @@ a {
     color: #fff;
 }
 
-/* nav section starts */
+/* ------nav section starts------- */
 nav {
     width: 100%;
-    height: 65px;
+    height: 70px;
     padding: 0px 150px;
     background-color: #101B37;
     display: flex;
@@ -28,31 +28,31 @@ nav {
 nav ul {
     display: flex;
 }
+
 nav .brand img {
     width: 130px;
-     height: 25px;
+    height: 25px;
 }
+
 nav ul li {
     list-style: none;
     padding: 20px;
 }
 
-nav ul li a.active {
+
+nav ul li a.active,
+nav ul li a:hover {
     color: #de5060;
 }
 
-nav ul li a:hover {
-    color: #ee394e;
-}
+/* ------nav section ends------- */
 
-/* nav section ends */
-
-/* banner section starts */
+/* ------banner section starts--------- */
 .banner {
     width: 100%;
     height: 120vh;
     padding: 0px 150px;
-    background: url(../img/wallpaperflare-cropped.jpg) no-repeat center;
+    background:url(../img/wallpaperflare-cropped.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -73,12 +73,12 @@ nav ul li a:hover {
     width: 100%;
     height: 25vh;
     margin-top: 18%;
-    background-color: rgba(99, 1, 131, 0.5);
+    background-color: rgba(99, 1, 131, 0.7);
 }
 
 .banner .search-banner button {
     margin: 0px 2px 5px 2px;
-    background-color: rgba(60, 1, 80, 0.5);
+    background-color: rgba(42, 1, 56, 0.7);
     border: 0;
     padding: 10px 15px;
     color: #fff;
@@ -86,12 +86,12 @@ nav ul li a:hover {
 }
 
 .banner .search-banner button.active,
-.banner .search-banner button:hover
- {
+.banner .search-banner button:hover {
     background-color: rgba(223, 19, 19, 0.7);
 }
+
 /* input section starts */
-.search-banner  .search-input {
+.search-banner .search-input {
     padding: 10px 0px 0px 10px;
     color: #fff;
 }
@@ -129,25 +129,24 @@ nav ul li a:hover {
     margin-left: 20px;
     font-weight: bold;
     padding: 30px 20px;
-    background: linear-gradient(rgba(236, 37, 37, 0.8),rgba(138, 2, 113, 0.8));
+    background: linear-gradient(rgba(197, 2, 113, 0.8), rgba(236, 37, 37, 0.8));
     border-radius: 50%;
 }
 
-/* input section ends */
 
-/* booking section start */
-.search-banner  .booking-details {
+.search-banner .booking-details {
     display: flex;
 }
+
 .search-banner .booking-details ul {
-display:flex;
+    display: flex;
 }
 
 .search-banner .booking-details ul li {
     display: flex;
     align-items: center;
     padding: 10px;
-    color: #B4E1F7;
+    color: #c4e5f6;
     font-size: 14px;
 }
 
@@ -156,26 +155,26 @@ display:flex;
     width: 170px;
     background-color: transparent;
     padding: 0px;
-    color: #B4E1F7;
+    color: #baddef;
     border: 0;
 }
 
 .search-banner .booking-details label {
     padding-left: 10px;
 }
+/* input section ends */
+/* --------/banner section ends------------ */
 
-/* /banner section ends */
-
-/* games section start */
+/* --------games section start--------- */
 .features {
     width: 100%;
     height: 50vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
-     url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+        url(../img/funbg.png) no-repeat center;
     background-size: cover;
     text-align: center;
     color: #fff;
-    padding: 30px 150px;
+    padding: 30px 100px;
 }
 
 .features h1 {
@@ -184,19 +183,20 @@ display:flex;
 }
 
 .features .activity-box {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    grid-gap: 20px;
 }
+
 .features .activity-content {
-    width: 230px;
     height: auto;
-    padding: 20px;
-    margin: 10px;
+    padding: 20px 10px;
     border-radius: 10%;
-    background:rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .features .activity-content:hover {
-box-shadow: 0px 2px 4px black;
+    box-shadow: 0px 2px 4px black;
 }
 
 .features .activity-content hr {
@@ -224,8 +224,8 @@ box-shadow: 0px 2px 4px black;
 .subscribe {
     width: 100%;
     height: 50vh;
-    background: linear-gradient(rgba(60, 2, 121, 0.5), rgba(76, 2, 126, 0.5)), 
-    url(../img/aeroplane-pictures-n2k6ba71eizhgdb1.webp) no-repeat center;
+    background: linear-gradient(rgba(60, 2, 121, 0.6), rgba(76, 2, 126, 0.6)),
+        url(../img/aeroplane-pictures-n2k6ba71eizhgdb1.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -244,7 +244,7 @@ box-shadow: 0px 2px 4px black;
     width: 800px;
 }
 
-.subscribe  .email-input input[type],
+.subscribe .email-input input[type],
 button {
     margin-top: 80px;
     padding: 17px 27px;
@@ -261,9 +261,9 @@ button {
     font-size: 15px;
 }
 
-/* Subscribe section ends here */
+/* ------Subscribe section ends-------- */
 
-/* destination  section strts */
+/* --------destination  section strts-------- */
 .destination {
     width: 100%;
     height: 130vh;
@@ -276,13 +276,16 @@ button {
     color: #ffffff;
     letter-spacing: 2px;
     padding: 20px;
+    font-size: 30px;
 }
+
 .destination ul {
     display: grid;
     grid-template-columns: repeat(4, 23%);
     grid-template-rows: 350px 350px;
     grid-gap: 20px;
 }
+
 .destination ul li {
     list-style: none;
     border-radius: 5px;
@@ -290,37 +293,46 @@ button {
     text-align: center;
     border: 3px solid #fff;
 }
+
 .destination .img-top img {
     width: 100%;
     height: 180px;
 }
+
 .destination .visit-content {
     padding: 10px;
 }
+
 .destination .visit-content span {
     color: #F88B0A;
 }
+
 .destination .visit-content h3 {
     font-size: 16px;
     padding-top: 10px;
 }
+
 .destination .visit-content p {
     padding: 10px;
-} 
-/* destination section ends */
-/* estimate section starts */
+}
+
+/* --------destination section ends-------- */
+
+/* ---------estimate section starts------- */
 .help-section {
     width: 100%;
     height: 30vh;
     text-align: center;
-    background-color: #5e42aa;
-color: #fff;
-padding: 30px 180px;
-
+    background: url(../img/helpimg.png) no-repeat 100% 100%;
+    background-color: #654DAD;
+    color: #fff;
+    padding: 50px 180px;
 }
+
 .help-section h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .help-section input[type],
@@ -339,17 +351,18 @@ padding: 30px 180px;
     background-color: #583000;
     color: #fff;
 }
+
 .help-section form {
     margin-top: -50px;
 }
-/* estimate section ends */
 
-/* blog section starts */
+/* -------estimate section ends---------- */
+
+/* ----------blog section starts------------ */
 .blog {
     width: 100%;
     height: auto;
-    padding: 40px 150px;
-    margin-bottom: 50px;
+    padding: 50px; 
 }
 
 .blog h1 {
@@ -382,31 +395,24 @@ padding: 30px 180px;
 .blog .blog-container ul li span {
     font-size: 13px;
 }
+
 .blog .blog-container img {
     width: 200px;
     height: 200px;
 }
+
 .blog .blog-container ul li p {
     margin-top: 40px;
     padding: 0px;
 }
 
-.blog .blog-container .radio-btn {
-    display: flex;
-    justify-content: center;
-}
+/* ------blog section ends------------ */
 
-.blog .blog-container .radio-btn input[type] {
-    margin: 10px;
-}
-
-/* blog section ends */
-
-/* footer sectio n starts */
+/* -------footer sectio n starts---------- */
 footer {
     width: 100%;
     height: auto;
-    background: linear-gradient(rgba(16, 1, 31, 0.9), rgba(12, 0, 23, 0.9)), url(../img/bgfooter.png) no-repeat center;
+    background: linear-gradient(rgba(20, 0, 31, 0.9), rgba(20, 0, 31, 0.9)), url(../img/bgfooter.png) no-repeat center;
     background-size: cover;
     padding: 30px 150px;
     color: #fff;
@@ -422,14 +428,14 @@ footer .top-cities ul {
     margin-top: 20px;
 }
 
-footer .top-cities ul li {
-    padding: 5px 0px;
+footer .top-cities ul li  {
+    padding: 6px 0px;
     cursor: pointer;
-    font-size: 14px;
 }
 
-footer .top-cities ul li:hover {
-    text-decoration: underline;
+footer .top-cities img {
+    vertical-align: middle;
+    padding: 5px 0px;
 }
 
 footer .top-cities span {
@@ -437,23 +443,19 @@ footer .top-cities span {
 }
 
 footer .bottom-list ul {
-    display: flex;
+ display: flex;
     list-style: none;
     align-items: center;
     margin-top: 30px;
 }
 
 footer .bottom-list {
-    display: flex;
+ display: flex;
     justify-content: space-around;
 }
 
 footer .bottom-list a {
     padding: 10px;
-}
-
-footer .bottom-list li:hover {
-text-decoration: underline;
 }
 
 footer .bottom-list .social-icon li {
@@ -468,8 +470,14 @@ footer .bottom-list .social-icon a {
     border-radius: 50%;
 }
 
+footer .top-cities ul li :hover,
+footer .bottom-list li a:hover {
+    color: rgb(129, 5, 106);
+}
+
 footer .bottom-list .social-icon a:hover {
-    background-color: #fff;
+    background-color: #080707;
+    color: #9476e6;
 }
 
 /* footer section ends */
